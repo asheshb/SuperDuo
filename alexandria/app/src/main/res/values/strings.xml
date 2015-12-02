@@ -30,6 +30,15 @@
     <string name="scanner_code_mismatch">The bar code doesn\'t seem to be in correct format.</string>
     <string name="scanner_preview_overlay">Place the barcode in viewfinder rectangle to scan it.</string>
 
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">Error reading barcode: %1$s</string>
+    <string name="barcode_note">Tap to capture. Pinch/Stretch to zoom</string>
+
     <string name="exception_no_internet">There was a problem with the network. Please check the internet connection.</string>
     <string name="exception_fetch_error">An error occurred while fetching data. </string>
     <string name="exception_json">An occurred while processing the data.</string>
