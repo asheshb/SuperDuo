@@ -17,9 +17,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-        buildTypes.each {
-            it.buildConfigField 'String', 'FOOTBALL_API_KEY', '"PLEASE ENETER THE API KEY"'
-        }
+	buildTypes.each {
+	    it.buildConfigField 'String', 'FOOTBALL_API_KEY', FOOTBALLAPIKEY
+	}
 }
 
 dependencies {
